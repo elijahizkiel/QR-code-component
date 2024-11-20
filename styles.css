@@ -10,10 +10,10 @@ body {
 }
 .qr-card{
     border-radius: 2vh;
-    padding: 5vh;
+    padding: 2vh;
     background-color: white;
-    margin: 15vh auto;
-    width:30vw;
+    margin: 25vh auto;
+    width:15vw;
     text-align: center;
 }
 .card-img {
@@ -21,20 +21,20 @@ body {
     border-radius: 2vh;
 }
 .card-bold {
-    font: 800 1.3rem/1.5 Outfit, sans-serif;
+    font: 700 1.2rem/1.5 Outfit, sans-serif;
 }
 .card-blur{
     color: var(--color2);
 }
 @media (max-width: 500px){
     .qr-card {
-        width: 80vw;
+        width: 70vw;
         padding: 1.5vh;
     }
 }
 @media (max-width: 900px){
     .qr-card {
-        width: 60vw;
-        padding: 3vh;
+        width: 40vw;
+        padding: 2vh;
     }
 }
