@@ -13,7 +13,7 @@ body {
     padding: 2vh;
     background-color: white;
     margin: 25vh auto;
-    width:20vw;
+    width:30vw;
     text-align: center;
 }
 .card-img {
@@ -21,10 +21,11 @@ body {
     border-radius: 1vh;
 }
 .card-bold {
-    font: 700 1.3rem/1.5 Outfit, sans-serif;
+    font: 700 1.5rem/1.5 Outfit, sans-serif;
 }
 .card-blur{
     color: var(--color2);
+    font: 400 1.5rem/1.5 Outfit, sans-serif;
 }
 @media (max-width: 500px){
     .qr-card {
