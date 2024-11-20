@@ -1,0 +1,40 @@
+:root {
+    --color1 : hsl(212, 45%, 89%);
+    --color2 : hsl(216, 15%, 48%);
+    --color3 : hsl(219, 27%, 81%);
+    font-size: 15px;
+    font-family: Outfit, sans-serif;
+}
+body {
+    background-color: var(--color1);
+}
+.qr-card{
+    border-radius: 2vh;
+    padding: 5vh;
+    background-color: white;
+    margin: 15vh auto;
+    width:30vw;
+    text-align: center;
+}
+.card-img {
+    width:100%;
+    border-radius: 2vh;
+}
+.card-bold {
+    font: 800 1.3rem/1.5 Outfit, sans-serif;
+}
+.card-blur{
+    color: var(--color2);
+}
+@media (max-width: 500px){
+    .qr-card {
+        width: 80vw;
+        padding: 1.5vh;
+    }
+}
+@media (max-width: 900px){
+    .qr-card {
+        width: 60vw;
+        padding: 3vh;
+    }
+}
