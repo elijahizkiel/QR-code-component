@@ -21,7 +21,7 @@ body {
     border-radius: 1vh;
 }
 .card-bold {
-    font: 700 1.5rem/1.5 Outfit, sans-serif;
+    font: 700 1.6rem/1.5 Outfit, sans-serif;
 }
 .card-blur{
     color: var(--color2);
